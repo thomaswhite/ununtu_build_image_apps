@@ -1,0 +1,2 @@
+https://download-cf.jetbrains.com/webstorm/WebStorm-2016.2.4.tar.gz
+Download WebStorm in ~/apps and install it
