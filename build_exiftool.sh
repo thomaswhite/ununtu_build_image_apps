@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+sudo apt-fast -qq  -y install lynx
+
 link=`lynx -dump -listonly https://www.sno.phy.queensu.ca/~phil/exiftool/ | grep Image-ExifTool.*gz`
 dotPos=`expr index "$link" '.'`
 url=${link:$dotPos}
