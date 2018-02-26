@@ -6,7 +6,7 @@ link=`lynx -dump -listonly https://www.sno.phy.queensu.ca/~phil/exiftool/ | grep
 dotPos=`expr index "$link" '.'`
 url=${link:$dotPos}
 
-pushd $build_path
+pushd ${build_path:.}
 
 achive_name="$(basename $url)"
 tar="${achive_name%.*}"
