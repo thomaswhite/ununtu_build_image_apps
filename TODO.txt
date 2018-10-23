@@ -1,3 +1,7 @@
 
 https://download-cf.jetbrains.com/webstorm/WebStorm-2016.2.4.tar.gz
 Download WebStorm in ~/apps and install it
+
+https://discuss.pixls.us/t/compiling-hdrmerge-in-linux/6201
+
+wget https://raw.githubusercontent.com/pixlsus/Scripts/master/build-hdrmerge
